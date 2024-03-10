@@ -20,7 +20,7 @@ class MyTheme {
     bottomNavigationBarTheme: BottomNavigationBarThemeData(
       selectedItemColor: Colors.brown,
       selectedLabelStyle: GoogleFonts.amiri(),
-      unselectedItemColor: Colors.black,
+      unselectedItemColor: Colors.black54,
       unselectedLabelStyle: GoogleFonts.amiri(),
       backgroundColor: const Color(0xffF8F3ED),
       selectedIconTheme: const IconThemeData(size: 40),

@@ -20,7 +20,7 @@ class _HomeScreenState extends State<HomeScreen> {
     return Container(
       decoration: const BoxDecoration(
           image: DecorationImage(
-              image: AssetImage('assets/image/back3.jpg'), fit: BoxFit.cover)),
+              image: AssetImage('assets/image/back_ground.jpg'), fit: BoxFit.cover)),
       child: Scaffold(
         backgroundColor: Colors.transparent,
         body: PageView(
@@ -40,19 +40,19 @@ class _HomeScreenState extends State<HomeScreen> {
             items: [
               BottomNavigationBarItem(
                   backgroundColor: Theme.of(context).primaryColor,
-                  icon: Icon(Icons.favorite),
+                  icon: const Icon(Icons.favorite),
                   label: 'المفضلة'),
               BottomNavigationBarItem(
                   backgroundColor: Theme.of(context).primaryColor,
-                  icon: Icon(FlutterIslamicIcons.quran),
+                  icon: const Icon(FlutterIslamicIcons.quran),
                   label: ('الاذكار')),
               BottomNavigationBarItem(
                   backgroundColor: Theme.of(context).primaryColor,
-                  icon: Icon(FlutterIslamicIcons.tasbih2),
+                  icon: const Icon(FlutterIslamicIcons.tasbih2),
                   label: ('السبحة')),
               BottomNavigationBarItem(
                   backgroundColor: Theme.of(context).primaryColor,
-                  icon: Icon(FlutterIslamicIcons.quran2),
+                  icon: const Icon(FlutterIslamicIcons.quran2),
                   label: ('القران الكريم')),
             ]),
       ),

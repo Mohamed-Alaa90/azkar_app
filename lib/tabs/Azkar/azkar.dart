@@ -7,6 +7,6 @@ class AzkarTab extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(title: Text('الازكار')));
+        appBar: AppBar(title: const Text('الازكار')));
   }
 }
