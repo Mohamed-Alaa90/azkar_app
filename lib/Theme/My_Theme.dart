@@ -21,7 +21,9 @@ class MyTheme {
       selectedItemColor: Colors.brown,
       selectedLabelStyle: GoogleFonts.amiri(),
       unselectedItemColor: Colors.black54,
-      unselectedLabelStyle: GoogleFonts.amiri(),
+      unselectedLabelStyle: GoogleFonts.amiri(
+         textStyle:const TextStyle(fontSize: 13)
+      ),
       backgroundColor: const Color(0xffF8F3ED),
       selectedIconTheme: const IconThemeData(size: 40),
       unselectedIconTheme: const IconThemeData(size: 34),
